@@ -1,10 +1,8 @@
-![](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=tutorials--agent-security-apex--readme)
-
-# Agent Security Evaluation Tutorial
+# Agent Security Evaluation 
 
 ## Overview
 
-This tutorial teaches prompt injection attacks and defenses through hands-on security testing of AI systems. Instead of just reading about vulnerabilities, you'll actually exploit them and then build protections against them.
+This project teaches prompt injection attacks and defenses through hands-on security testing of AI systems. Instead of just reading about vulnerabilities, you'll actually exploit them and then build protections against them.
 
 ## What's included
 
@@ -31,20 +29,8 @@ This tutorial teaches prompt injection attacks and defenses through hands-on sec
 
 ## Files included
 
-- `agent-security-evaluation-tutorial.ipynb` - Main tutorial notebook
+- `agent-security-evaluation.ipynb` - Main tutorial notebook
 - `model_testing_tools.py` - Automated testing framework
 - `prompt_manipulation_tools.py` - Encoding/obfuscation utilities
 - `system_prompt.txt` - Example defensive prompt
 - `example_prompts.csv` - Dataset of 91 real attack examples
-
-## Setup
-
-1. Install required packages: `pip install openai python-dotenv pandas`
-2. Create a `.env` file with your OpenAI API key: `OPENAI_API_KEY=your_key_here`
-3. Run the notebook cells in order
-
-The tutorial takes about 30-45 minutes to complete and includes both automated testing and manual experimentation.
-
-## Warning
-
-This tutorial demonstrates actual attack techniques for educational purposes. Use these methods only on systems you own or have explicit permission to test.
